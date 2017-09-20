@@ -8,10 +8,11 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[lib_logo]       = 'Library Logo'
 regions[logo]           = 'Logo'
 regions[tagline]        = 'Site Tagline'
 regions[header]         = 'Main Carousel'
-regions[room-banner]	= 'Room Banner Image'
+regions[room_banner]	= 'Room Banner Image'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'

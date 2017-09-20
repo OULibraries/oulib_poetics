@@ -10,7 +10,6 @@
    Subscribe Form
    Homepage
    Oembed
-   Global Footer
    Paragraph Styling
    - - - - - - - - -
  */
@@ -22,7 +21,6 @@
 
 body {
     font-family: 'Droid Sans';
-	font-size: 1.5em;
 	line-height: 1.25;
 }
 
@@ -158,8 +156,7 @@ a {
 
 .navbar {
 	background-color: #841719;
-	font-family: 'Constantia';
-	font-size: 1.3em;
+	font-family: 'Constantia', Garamond, Georgia;
 	font-weight: bold;
 	letter-spacing: .05em;
 	width: 100%;
@@ -386,17 +383,6 @@ a {
 .oembed {
 	height: auto;
   }
-}
-
-
-
-
-/**
- * Global Footer
- */	
- 
-.footer{
-    font-size: 0.6em;
 }
 
 

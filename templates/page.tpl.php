@@ -88,16 +88,11 @@
      </div>
 </div>
 
+
 <!-- OU Libraries Logo -->
-<div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<a href="https://libraries.ou.edu/"><img src="/sites/all/themes/oulib_poetics/img/oul_logo.png" alt="OU Libraries logo"></a>
-			</div>
-		</div>
-	</div>
-</div>
+<div class="Library Logo">
+    <?php print render($page['lib_logo']); ?>
+  </div>
 
 
 <!-- Exhibit Logo & Tagline -->
@@ -120,7 +115,6 @@
 </div>
 </div>
 </div>
-
 
 
 <!-- Homepage Carousel -->
@@ -167,9 +161,9 @@
 <div class="container-fluid">
 <div class="row">
 	
-	<?php if (!empty($page['room-banner'])): ?>
+	<?php if (!empty($page['room_banner'])): ?>
 		<div class="col-md-12 room-banner">
-			<?php print render($page['room-banner']); ?>	
+			<?php print render($page['room_banner']); ?>	
 		</div>
 	<?php endif; ?>
 	
