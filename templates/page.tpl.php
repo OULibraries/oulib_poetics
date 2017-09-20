@@ -90,9 +90,11 @@
 
 
 <!-- OU Libraries Logo -->
-<div class="Library Logo">
-    <?php print render($page['lib_logo']); ?>
-  </div>
+<div class="lib_logo">
+	<div class="col-md-12">
+		<?php print render($page['lib_logo']); ?>
+	</div>
+</div>
 
 
 <!-- Exhibit Logo & Tagline -->
