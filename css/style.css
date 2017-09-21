@@ -130,7 +130,7 @@ a {
 }
 
 #top_regions{
-	background: #cecece;
+	background-image: url('../img/bg_texture_mustard.jpg');
 }
 
 
@@ -179,7 +179,7 @@ a {
 	background-color: #841719;
 	font-family: 'Constantia', Garamond, Georgia;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
