@@ -99,23 +99,23 @@
 
 <!-- Exhibit Logo & Tagline -->
 <div id="top_regions">
-<div class="container-fluid">
-<div class="row">
-	
-	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-4 col-sm-12 col-xs-12">
-			<?php print render($page['logo']); ?>	
+	<div class="container-fluid">
+		<div class="row">
+			
+			<?php if (!empty($page['logo'])): ?>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php print render($page['logo']); ?>	
+				</div>
+			<?php endif; ?>
+			
+			<?php if (!empty($page['tagline'])): ?>
+				<div class="col-md-8 col-sm-12 hidden-xs">
+					<?php print render($page['tagline']); ?>
+				</div>
+			<?php endif; ?>
+			
 		</div>
-	<?php endif; ?>
-	
-	<?php if (!empty($page['tagline'])): ?>
-		<div class="col-md-8 col-sm-12 hidden-xs">
-			<?php print render($page['tagline']); ?>
-		</div>
-	<?php endif; ?>
-	
-</div>
-</div>
+	</div>
 </div>
 
 
@@ -248,45 +248,28 @@
                     <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
                     401 W. Brooks St<br />
-
                     Norman, OK 73019<br />
-
                     (405) 325-2789
 
                 </div>
 
                 <div class="col-md-4">
-
                     <span style="width: 50%; float: left;">
-
                         <ul>
-
                             <li><a href="general-contact" title="Contact Us">Contact</a></li>
-
                             <li><a href="about-this-site" title="About This Site">About this Site</a></li>
-
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
-							
 							<li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries" target="_blank">Job Opportunities</a></li>
-
                         </ul>
-
                     </span>
 
                     <div style="width: 50%; float: right;">
-
                         <ul>
-
                             <li><a href="http://www.ou.edu/content/publicaffairs/WebPolicies/copyright.html" title="Copyright" target="_blank">Copyright</a></li>
-
                             <li><a href="http://www.ou.edu/content/web/landing/policy.html" title="Policies" target="_blank">Policies</a></li>
-
                             <!-- <li><a href="http://ouhsc.edu/hipaa/" title="HIPAA">HIPAA</a></li> -->
-
                             <li><a href="http://www.ou.edu/content/web/landing/legalnotices.html" title="Legal Notice" target="_blank">Legal Notice</a></li>
-
                         </ul>
-
                     </div>
 
                     <div style="clear: both; padding-bottom: 30px;"></div>
@@ -294,22 +277,14 @@
                 </div>
 
                 <div class="col-md-3">
-
                     <div class="social">
-
                         <ul>
-
                             <li><a href="https://www.facebook.com/OULibraries" class="facebook" title="facebook" target="_blank"></a></li>
-
                             <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
-
                             <li><a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg" class="youtube" title="youtube" target="_blank"></a></li>
-
                             <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram" target="_blank"></a></li>
-
                         </ul>
                     </div>
-
                 </div>
 
             </div>
