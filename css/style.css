@@ -46,6 +46,18 @@ img{
     max-width: 100%;
 }
 
+img.special{
+	border-bottom: 5px solid #fff;
+	text-align: center;
+}
+
+img.special2{
+	border: 1px solid #cecece;
+	text-align: center;
+	padding: 10px;
+	background-color: #fff;
+}
+
 .float-left{
     float: left;
 }
@@ -61,6 +73,15 @@ img{
 
 a {
     color: #404040;
+}
+
+.rounded-border{ /* Rounded border + dropshadow design element */
+	padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
+	margin-bottom: 10px;
 }
 
 .btn-crimson {
@@ -158,6 +179,7 @@ a {
 	background-color: #841719;
 	font-family: 'Constantia', Garamond, Georgia;
 	font-weight: bold;
+	font-size: 1.3em;
 	letter-spacing: .05em;
 	width: 100%;
 	border-radius: 0;
@@ -165,8 +187,7 @@ a {
 	box-shadow: 0px 5px 5px #bbb; 
 	-moz-box-shadow: 0px 5px 5px #bbb; 
 	-webkit-box-shadow: 0px 5px 5px #bbb; 
-	-o-box-shadow: 0px 5px 5px #bbb;
-	margin-bottom: 0px;
+	-o-box-shadow: 0px 5px 5px #bbb;rou
 }
 
 .navbar ul.menu.nav{
