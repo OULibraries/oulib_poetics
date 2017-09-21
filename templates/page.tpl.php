@@ -91,9 +91,7 @@
 
 <!-- OU Libraries Logo -->
 <div class="lib_logo">
-	<div class="col-md-12">
 		<?php print render($page['lib_logo']); ?>
-	</div>
 </div>
 
 
