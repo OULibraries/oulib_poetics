@@ -21,6 +21,7 @@
 
 body {
     font-family: 'Droid Sans';
+	font-size: 1.6em;
 	line-height: 1.25;
 }
 
@@ -114,7 +115,7 @@ blockquote {
 
 #top_regions{
 	background-image: url('../img/bg_texture_crimson.jpg');
-	border-bottom: 5px solid #631012;
+	border-bottom: 5px solid #522122;
 }
 
 
@@ -126,6 +127,7 @@ blockquote {
  
 .carousel-inner     {
 	width: 100%;
+	border-bottom: 5px solid #522122;
 }
 
 .carousel-inner img{
@@ -346,7 +348,7 @@ blockquote {
 .homepage-card-title{
 	text-align: center;
 	font-weight: bold;
-	font-family: 'Lora';
+	font-family: 'Constantia', Garamond, Georgia;
 	font-size: 1.3em;
 	margin-bottom: 10px;
 }
@@ -406,9 +408,9 @@ blockquote {
 }
 
 .paragraphs_section_header{
-    font-size: 1.35em;
+    font-size: 1.5em;
 	margin-bottom: 10px;
-	font-family: 'Lora';
+	font-family: 'Constantia', Garamond, Georgia;
 	font-weight: 700;
 }
 
