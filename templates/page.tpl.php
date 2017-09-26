@@ -118,7 +118,7 @@
 
 
 <!-- Homepage Carousel -->
-<div class="carousel_inner hidden-xs">
+<div class="carousel_inner carousel-fade hidden-xs">
     <?php print render($page['header']); ?>
   </div>
 
