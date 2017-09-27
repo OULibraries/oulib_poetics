@@ -87,11 +87,11 @@
 	<div class="row">
 		
 		<div class="col-md-2 col-sm-2 hidden-xs">
-			<div class="thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_room_banners']);?></a></div>
+			<div class="index-thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_room_banners']);?></a></div>
 		</div>
 		
 		<div class="col-md-10 col-sm-10 col-xs-12"> 
-			<div class="room-title"><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div>
+			<h3><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
 			<div class="room-index-description"><?php print render($content['field_description']); ?></div>
 		</div>
 		

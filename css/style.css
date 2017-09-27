@@ -59,10 +59,12 @@ img.special2{
 	background-color: #fff;
 }
 
-img.thumbnail{
-	border: 1px solid #cecece;
-	padding: 10px;
-	background-color: #fff;
+img.index-thumbnail{
+	padding: 6px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
 }
 
 .float-left{
@@ -470,7 +472,7 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
     width: 100%;
     background-color: #2a2a2a;
     margin-bottom: 10px;
-    height: 485px;
+    height: 300px;
 }
 
 .oembed  .oembed-title{
