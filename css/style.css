@@ -59,7 +59,7 @@ img.special2{
 	background-color: #fff;
 }
 
-img.index-thumbnail{
+.index-thumbnail{
 	padding: 6px;
     background-color: #fff;
     border: 1px solid #c9c9c9;
@@ -472,7 +472,7 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
     width: 100%;
     background-color: #2a2a2a;
     margin-bottom: 10px;
-    height: 300px;
+    height: 310px;
 }
 
 .oembed  .oembed-title{
