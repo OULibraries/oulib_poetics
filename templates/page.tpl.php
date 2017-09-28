@@ -155,6 +155,7 @@
 </div>
 
 
+
 <!-- Room-Specific Banners -->
 
 <div id="room-banner">
@@ -162,17 +163,21 @@
 <div class="row">
 	
 	<?php if (!empty($page['room_banner'])): ?>
-		<div class="col-md-12 room-banner">
+		<div class="room-banner">
 			<?php print render($page['room_banner']); ?>	
 		</div>
 	<?php endif; ?>
 	
 </div>
-
-
 </div>
 </div>
 
+
+
+<!-- Call-out Section -->
+<div class="callout-section">
+    <?php print render($page['call_out']); ?>
+  </div>
 
  
 

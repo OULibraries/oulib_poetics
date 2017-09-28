@@ -6,6 +6,7 @@
    General Styles
    Header Styles
    Main Carousel
+   Room Banners
    Navigation Bar
    Subscribe Form
    Homepage
@@ -122,13 +123,25 @@ blockquote {
 
 
 #top_regions{
-	background-image: url('../img/bg_texture_crimson.jpg');
+	background-image: url('../img/bg_texture_lightcyan.jpg');
 	border-bottom: 5px solid #522122;
 }
 
 
 
 
+ /**
+ * Call-out Section
+ */
+ 
+.callout-section{
+	background-image: url('../img/bg_paper.jpg');
+	background-repeat: repeat-x;
+}
+
+
+
+ 
  /**
  * Main Carousel
  */
@@ -190,8 +203,6 @@ blockquote {
 }
 
 
-
-
 /* Carousel Control custom */
 .carousel-control .control-icon {
   font-size: 48px;
@@ -246,6 +257,17 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
   background: #fff;
   margin: 0 3px;
   }
+
+  
+  
+  
+ /**
+ * Room Banners
+ */  
+
+.room-banner{
+	margin-bottom: 10px;
+}
 
 
 
