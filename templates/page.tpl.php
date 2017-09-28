@@ -175,16 +175,17 @@
 
 
 <!-- Call-out Section -->
-<div class="callout-section">
-    <?php print render($page['call_out']); ?>
-  </div>
-
+<div class="main-container">
+	<div class="callout-section">
+		<?php print render($page['call_out']); ?>
+	  </div>
+</div>
  
 
+ 
+<!-- Main Content/Body Section --> 
 <div id="holder">
 <div class="container whitebg">
-
-<!-- body tag for stick footer -->
 
 <div id="body">
 
