@@ -26,7 +26,7 @@
  * @see template_process()
  */
 ?>
-<div class="paragraph_bundle row">
+<div class="paragraph_bundle paragraph_bundle_margin row">
 	<div class="col-md-6">
 	<?php print render($content['field_left_column_text']); ?>
 	</div>

@@ -171,15 +171,6 @@
 </div>
 </div>
 </div>
-
-
-
-<!-- Call-out Section -->
-<div class="main-container">
-	<div class="callout-section">
-		<?php print render($page['call_out']); ?>
-	  </div>
-</div>
  
 
  

@@ -94,7 +94,7 @@ a {
 	margin-bottom: 10px;
 }
 
-.btn-crimson {
+.btn {
 	background-color: #841719;
 	border: 0;
 	color: #fff;
@@ -103,7 +103,7 @@ a {
 	font-family: 'Droid Sans';
 }
 
-.btn-crimson:hover {
+.btn:hover {
 	background-color: #691214;
 	border: 0;
 	color: #fff;
@@ -124,19 +124,7 @@ blockquote {
 
 #top_regions{
 	background-image: url('../img/bg_texture_lightcyan.jpg');
-	border-bottom: 5px solid #522122;
-}
-
-
-
-
- /**
- * Call-out Section
- */
- 
-.callout-section{
-	background-image: url('../img/bg_paper.jpg');
-	background-repeat: repeat-x;
+	border-bottom: 5px solid #276b5f;
 }
 
 
@@ -580,6 +568,10 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 
 .paragraph_bundle_image_right img{
 	margin: 15px 0 15px 0;
+}
+
+.paragraph_bundle_margin{
+	margin-bottom: 15px;
 }
 
 .paragraphs_location_description{
