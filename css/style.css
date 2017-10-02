@@ -43,6 +43,12 @@ h4, h5, h6{
 	font-weight: bold;
 }
 
+.panel-red-header{
+	font-family: 'Constantia', Garamond, Georgia;
+	color: #841719;
+	font-size: 1.9em;
+}
+
 img{
 	height: auto;
     max-width: 100%;
@@ -82,7 +88,11 @@ img.special2{
 }
 
 a {
-    color: #404040;
+    color: #47a89e;
+}
+
+a:hover{
+	color: #336b5f;
 }
 
 .rounded-border{ /* Rounded border + dropshadow design element */
@@ -90,6 +100,16 @@ a {
     background-color: #fff;
     border: 1px solid #c9c9c9;
 	border-radius: 4px;
+	box-shadow: 2px 2px 4px #eaeaea;
+	margin-bottom: 10px;
+}
+
+.rounded-header{ /* Rounded top + color border on bottom */
+	padding: 15px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+	border-radius: 4px 4px 0 0;
+	border-bottom: #841719;
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
 }
@@ -409,51 +429,14 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
  * Homepage
  */
 
-.homepage-video img{
-	width: 100%;
-	height: auto;
-	border-radius: 8px;
-	margin-bottom: 10px;
-}
-
-.homepage-video #node-105{
-	text-align: center;
-	margin: 15px 5px 15px 0;
-	border-top: 1px solid #dedede;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	border-radius: 3px;
-	line-height: normal;
-	padding: 5px 8px 3px;
-	color: #000;
-	text-shadow: 1px 1px 1px #fff;
-	font-weight: 700;
-	font-size: 10px;
-	height: 370px;
-	width: 100%;
-	background-color: #2a2a2a;
+.homepage-video{
+	min-height: 410px;
 }
 
 @media (max-width: 750px) {
-.homepage-video #node-105 {
+.homepage-video {
 	height: auto;
   }
-}
-
-.homepage-card{
-	min-height: 510px;
-	font-size: .90em;
-}
-
-.homepage-card-title{
-	text-align: center;
-	font-weight: bold;
-	font-family: 'Constantia', Garamond, Georgia;
-	font-size: 1.3em;
-	margin-bottom: 10px;
 }
 
 
@@ -482,14 +465,14 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
     width: 100%;
     background-color: #2a2a2a;
     margin-bottom: 10px;
-    height: 310px;
+    height: 327px;
 }
 
 .oembed  .oembed-title{
 	display:none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 995px) {
 .oembed {
 	height: auto;
   }
