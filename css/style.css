@@ -109,7 +109,7 @@ a:hover{
     background-color: #fff;
     border: 1px solid #c9c9c9;
 	border-radius: 4px 4px 0 0;
-	border-bottom: #841719;
+	border-bottom: 5px solid #841719;
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
 }
