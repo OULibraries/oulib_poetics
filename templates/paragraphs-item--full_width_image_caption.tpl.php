@@ -26,9 +26,10 @@
  * @see template_process()
  */
 ?>
-<div class="row">
+<div class="paragraph_bundle_full_image row">
 	<div class="col-md-12">
-	<h2 class="poi_paragraphs_section_red_header"><?php print render($content['field_header']); ?></h2>
+	<?php print render($content['field_image']); ?>
+	<div class="center"><?php print render($content['field_image_caption']); ?></div>
 	</div>
 </div>
 

@@ -148,6 +148,9 @@ blockquote {
 	color: #3336b5f;
 }
 
+.pagination > li > a, {
+	color: #336b5f;
+}
 
 
 
@@ -578,6 +581,12 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 	margin-bottom: 15px;
 }
 
+.paragraph_bundle_full_image_caption{
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
 .paragraph_bundle_image_left{
 	margin-top: 15px;
