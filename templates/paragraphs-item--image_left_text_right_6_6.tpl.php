@@ -28,14 +28,14 @@
 ?>
 
 <div class="paragraph_bundle_image_left row">
-	<div class="paragraphs_image col-md-2">
+	<div class="paragraphs_image col-md-6">
 	<?php print render($content['field_image']); ?>
-	<?php print render($content['field_image1']); ?>
+	<?php print render($content['field_image_caption']); ?>
+
 	</div>
 	
 	<div class="col-md-6">
 	<?php print render($content['field_description']); ?>
-	<?php print render($content['field_description1']); ?>
 	</div>
 </div>
 
