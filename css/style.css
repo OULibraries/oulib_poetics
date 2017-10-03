@@ -7,6 +7,7 @@
    Header Styles
    Main Carousel
    Room Banners
+   Room Pages
    Navigation Bar
    Subscribe Form
    Homepage
@@ -24,6 +25,14 @@ body {
     font-family: 'Droid Sans';
 	font-size: 1.6em;
 	line-height: 1.25;
+}
+
+a {
+    color: #336b5f;
+}
+
+a:hover{
+	color: #2b5b51;
 }
 
 .container-fluid {
@@ -87,14 +96,6 @@ img.special2{
 	border-bottom: 10px solid #fff;
 }
 
-a {
-    color: #47a89e;
-}
-
-a:hover{
-	color: #336b5f;
-}
-
 .rounded-border{ /* Rounded border + dropshadow design element */
 	padding: 15px;
     background-color: #fff;
@@ -132,6 +133,15 @@ a:hover{
 blockquote {
 	font-family: 'Constantia', Garamond, Georgia;
     border-left: 5px solid #841719;
+}
+
+.pagination{
+	color: #336b5f;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background-color: #336b5f;
+    border-color: #336b5f;
 }
 
 
@@ -250,7 +260,7 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 .carousel:hover a.carousel-control.right { right: 15px; }  
 
 
-/* Carouse Indicator */
+/* Carousel Indicator */
 .carousel-indicators li.active,
 .carousel-indicators li { border: 0; }
 
@@ -276,6 +286,24 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 .room-banner{
 	margin-bottom: 10px;
 }
+
+
+
+
+ /**
+ * Room Pages
+ */  
+
+.octagon-panel{
+	height: 405px;
+}
+
+@media (max-width: 750px) {
+.octagon-panel {
+	height: auto;
+  }
+}
+
 
 
 
