@@ -110,7 +110,7 @@ img.special2{
     background-color: #fff;
     border: 1px solid #c9c9c9;
 	border-radius: 4px 4px 0 0;
-	border-bottom: 5px solid #841719;
+	border-bottom: 10px solid #841719;
 	box-shadow: 2px 2px 4px #eaeaea;
 	margin-bottom: 10px;
 }
@@ -142,6 +142,10 @@ blockquote {
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
 	background-color: #336b5f;
     border-color: #336b5f;
+}
+
+.pagination > li > a, .pagination > li > span{
+	color: #3336b5f;
 }
 
 
@@ -526,6 +530,14 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 	margin-bottom: 10px;
 	font-family: 'Constantia', Garamond, Georgia;
 	font-weight: 700;
+}
+
+.poi_paragraphs_section_red_header{
+    font-family: 'Constantia', Garamond, Georgia;
+	color: #841719;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 .paragraph_bundle_featured{
