@@ -26,7 +26,7 @@
  * @see template_process()
  */
 ?>
-<div class="paragraph_bundle_full_image row">
+<div class="paragraph_bundle_full_image_caption row">
 	<div class="col-md-12">
 	<?php print render($content['field_image']); ?>
 	<div class="center"><?php print render($content['field_image_caption']); ?></div>
