@@ -583,6 +583,7 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 .paragraph_bundle_full_image{
 	margin-top: 15px;
 	margin-bottom: 15px;
+    text-align: center;
 }
 
 .paragraph_bundle_full_image_caption{
