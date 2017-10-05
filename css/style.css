@@ -28,11 +28,16 @@ body {
 }
 
 a {
-    color: #336b5f;
+    color: #3c7c6e;
+	font-weight: bold;
 }
 
 a:hover{
-	color: #2b5b51;
+	color: #336b5f;
+}
+
+a:visited { 
+    color: #2b5b51;
 }
 
 .container-fluid {
@@ -504,7 +509,7 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
     width: 100%;
     background-color: #2a2a2a;
     margin-bottom: 10px;
-    height: 327px;
+    height: 411px;
 }
 
 .oembed  .oembed-title{
