@@ -139,6 +139,10 @@ img.special2{
 	color: #fff;
 }
 
+.btn:visited {
+	color: #fff;
+}
+
 blockquote {
 	font-family: 'Constantia', Garamond, Georgia;
     border-left: 5px solid #841719;
