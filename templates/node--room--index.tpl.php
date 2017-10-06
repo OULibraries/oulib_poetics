@@ -87,7 +87,7 @@
 	<div class="row">
 		
 		<div class="col-md-2 col-sm-2 hidden-xs">
-			<div class="index-thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_room_banners']);?></a></div>
+			<div class="index-thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_octagon_image']);?></a></div>
 		</div>
 		
 		<div class="col-md-10 col-sm-10 col-xs-12"> 
