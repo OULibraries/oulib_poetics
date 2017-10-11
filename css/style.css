@@ -548,6 +548,13 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 	font-weight: 700;
 }
 
+.paragraphs_section_header_panel{
+    font-size: 1.75em;
+	margin-bottom: 10px;
+	font-family: 'Constantia', Garamond, Georgia;
+	font-weight: 700;
+}
+
 .poi_paragraphs_section_red_header{
     font-family: 'Constantia', Garamond, Georgia;
 	color: #841719;
