@@ -30,12 +30,11 @@
 <div class="paragraph_bundle_image_left row">
 	<div class="paragraphs_image col-lg-3 col-md-2">
 	<?php print render($content['field_image']); ?>
-	<?php print render($content['field_image1']); ?>
+	<?php print render($content['field_image_caption']); ?>
 	</div>
 	
 	<div class="col-lg-9 col-md-10">
 	<?php print render($content['field_description']); ?>
-	<?php print render($content['field_description1']); ?>
 	</div>
 </div>
 
