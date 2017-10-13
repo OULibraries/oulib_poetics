@@ -65,6 +65,7 @@ h4, h5, h6{
 
 .image-caption{
 	margin: 5px;
+	font-size: .95em;
 }
 
 img{
@@ -612,11 +613,13 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 .paragraph_bundle_image_left{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	text-align: left;
 }
 
 .paragraph_bundle_image_right{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	text-align: right;
 }
 
 .paragraph_bundle_image_right img{
